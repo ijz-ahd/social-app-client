@@ -43,7 +43,7 @@ function Post({
             color="grey"
             basic
             style={{ fontWeight: "700" }}
-            size="tiny"
+            size="mini"
             as={Link}
             to={`/posts/${id}`}
           >
