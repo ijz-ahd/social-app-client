@@ -1,0 +1,46 @@
+* {
+  font-family: monospace !important;
+}
+
+.formContainer {
+  padding: 50px;
+  display: grid;
+  place-items: center;
+}
+
+.formHeader {
+  margin-bottom: 40px;
+  font-size: large;
+  border-bottom: 1px solid lightgray;
+  padding: 12px;
+}
+
+.postFormContainer {
+  display: flex;
+  width: 550px;
+  align-items: center;
+}
+
+.postFormContainer > img {
+  /* margin-right: 10px; */
+  margin: 10px 10px 10px 0;
+}
+
+.ui
+  .blue
+  .mini
+  .button:focus
+  .likeButton:focus
+  .ui
+  .blue
+  .buttons
+  .button:focus {
+  background-color: #1678c2;
+}
+
+@media (min-width: 900px) {
+  .postCardContianer {
+    display: flex !important;
+    flex-direction: column;
+  }
+}
